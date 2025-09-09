@@ -1,6 +1,14 @@
 
 # **Como LLM pode promover o aprendizado e o desenvolvimento de aplicações Ruby?**
 
+
+**Aluna:** Caroline Bohadana Rodrigues Viana
+
+**Matrícula:** 232050975
+
+**Disciplina:** Engenharia de Software 2025/2
+
+
 ## **Exercício 1**
 
 **a)** A resolução inicialmente proposta para esse exercício é:
