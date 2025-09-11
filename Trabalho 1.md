@@ -17,8 +17,8 @@
 def palindrome?(string)
 
     # 1. Pré-processamento da string de entrada:
-    #    - gsub(/[^a-zA-Z]/, ''): Remove todos os caracteres que NÃO são letras (maiúsculas ou minúsculas).
-    #      A expressão regular /[^a-zA-Z]/ significa "qualquer caractere que não seja (^) uma letra de a-z, A-Z.".
+    #    - gsub(/[^a-zA-Z]/, ''): Remove todos os caracteres que não são letras.
+    #      A expressão regular /[^a-zA-Z]/ significa: "qualquer caractere que não seja (^) uma letra de a-z, A-Z.".
     #    - .downcase: Converte toda a string para letras minúsculas para garantir que a comparação não diferencie maiúsculas de minúsculas.
     letras = string.gsub(/[^a-zA-Z]/, '').downcase
 
@@ -64,7 +64,7 @@ Como implementação alternativa, pode-se usar:
 def palindrome_phrase?(string)
     # 1. Preparação da String:
     #    - Converte para minúsculas.
-    #    - Usa gsub para remover TUDO o que não for letra ou número.
+    #    - Usa gsub para remover tudo o que não for letra ou número.
     #      A expressão regular /[^a-z0-9]/ significa "qualquer caractere que não seja (^) uma letra de a-z ou um número de 0-9".
     processed_string = string.downcase.gsub(/[^a-z0-9]/, '')
 
