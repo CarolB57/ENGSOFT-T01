@@ -1115,10 +1115,16 @@ Dessa forma, para facilidade de leitura e simplicidade de implementação, o pri
 
 ---
 
-## **Conclusão**
+## **Análise das Respostas e Conclusão**
 
-Diante de todos os códigos implementados pela presente autora desse trabalho e pela IA do Google (Gemini), é possível afirmar que o Gemini conseguiu propor respostas excelentes, desde o aspecto da clareza do código até aspectos como velocidade e memória. Além disso, por mais que seja muito mais fácil e prático utilizar métodos já contidos na linguagem Ruby (como .reverse, .sort etc), o seu uso pode não ser a melhor alternativa em todos os casos. Isso se deve ao fato de que há uma tendência a alocar grandes espaços na memória (principalmente), o que desfavorece a implementação em si.
+*Obs.: As respostas alternativas foram feitas pela IA do Google (Gemini).*
 
-Portanto, cabe ao desenvolvedor escolher a melhor implementação para o seu projeto. Nesse caso, o uso alguma IA como um guia pode ser uma excelente escolha, uma vez que esta pode auxiliar na construção de um projeto eficiente e que atenda aos requisitos esperados dos stakeholders.
+Sobre a análise de tempo e esforço para entendimento e desenvolvimento dos códigos, é válido afirmar que, sendo a primeira atividade desenvolvida na linguagem de programação Ruby (a qual a autora desse trabalho nunca teve contato prévio, além de ter enorme dificuldade me aprender uma linguagem de programação nova), levou-se bastante tempo para o completo entendimento da sintaxe e dos métodos da linguagem e, consequentemente, muita demora no desenvolvimento de cada resposta. Além disso, o prévio conhecimento em C da autora atrapalhou o desenvolvimento do raciocínio que deve ser utilizado ao lidar com algum problema em Ruby, uma vez que ambas as linguagens são muito diferentes e um mesmo raciocínio na lógica da linguagem C pode ser simplificado na linguagem Ruby (com algum tipo de método, por exemplo).
+
+Por outro lado, sobre a análise criteriosa das respostas, é possível afirmar que, de modo geral em Ruby, as respostas podem ser desenvolvidas em poucas linhas, visto que a linguagem possui diversos métodos que beneficiam o programador, fazendo com que ele não perca tempo desenvolvendo métodos secundários para a resolução de um dado problema. Porém, é necessário atentar-se à performance, ao tempo e ao uso de memória do código, uma vez que nem sempre a melhor resposta é a que utiliza métodos nativos do Ruby (como visto no exercício 6 letras b e c). Mesmo assim, o Ruby consegue oferecer facilidade ao programador novato que está aprendendo tal linguagem, visto que diversos problemas podem ser feitos em poucas linhas, enquanto em linguagens como C, gastariam-se muitas linhas e funções auxiliares.
+
+Diante de todos os códigos implementados pela presente autora desse trabalho e pelo Gemini, é possível afirmar que o Gemini conseguiu propor respostas excelentes, desde o aspecto da clareza do código até aspectos como velocidade e memória. Além disso, por mais que seja muito mais fácil e prático utilizar métodos já contidos na linguagem Ruby (como .reverse, .sort etc), o seu uso pode não ser a melhor alternativa em todos os casos. Isso se deve ao fato de que há uma tendência a alocar grandes espaços na memória (principalmente), o que desfavorece a performance da implementação.
+
+Portanto, cabe ao desenvolvedor escolher a melhor implementação para a resolução dos problemas proposto. Nesse caso, o uso alguma IA como um guia pode ser uma excelente escolha, uma vez que esta pode auxiliar na construção de soluções eficientes e que apresentem mais vantagens do que desvantagens.
 
 
